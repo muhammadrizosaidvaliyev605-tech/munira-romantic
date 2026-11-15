@@ -1,0 +1,419 @@
+
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#160f20">
+
+  <title>Munira — Eng go‘zal hikoyam ♡</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <nav class="nav">
+    <a class="brand" href="#home">m<span>♡</span></a>
+
+    <div class="nav-links">
+      <a href="#memories">Xotiralarimiz</a>
+      <a href="#story">Hikoyamiz</a>
+      <a href="#letter">Maktubim</a>
+    </div>
+
+    <button class="music-toggle" id="musicToggle">
+      ♫ <span>Musiqa</span>
+    </button>
+  </nav>
+
+  <main>
+
+    <!-- BOSH SAHIFA -->
+    <section class="hero" id="home">
+
+      <div class="hero-image-wrap">
+
+        <img
+          class="hero-image"
+          src="images/hero.jpg"
+          alt="Bizning go‘zal xotiramiz"
+          onerror="this.style.display='none'"
+        >
+
+        <div class="hero-shade"></div>
+
+        <div class="hero-content reveal">
+
+          <p class="eyebrow">FAQAT SEN UCHUN YARATILGAN KICHIK OLAM</p>
+
+          <h1>
+            Mening eng sevimli
+            <br>
+            <em>hikoyam — sensan.</em>
+          </h1>
+
+          <p class="hero-subtitle">
+            Hayotimdagi eng chiroyli tasodif — bu sensan.
+          </p>
+
+          <a class="pill-button" href="#memories">
+            Xotiralarimiz <span>↘</span>
+          </a>
+
+        </div>
+
+        <div class="hero-caption">
+          <span>01 / ABADIY</span>
+          <span>MEHR BILAN YARATILDI ♡</span>
+        </div>
+
+      </div>
+
+      <div class="scroll-note">
+        <span></span> PASTGA QARAB DAVOM ETING
+      </div>
+
+    </section>
+
+
+    <!-- KIRISH -->
+    <section class="intro section-pad reveal">
+
+      <p class="eyebrow">ENG AZIZIM — MUNIRA</p>
+
+      <h2>
+        Ba'zi insonlar dunyoni
+        <br>
+        yanada <em>go‘zal qiladi.</em>
+      </h2>
+
+      <p class="intro-copy">
+        Sen bilan oddiy kunlar ham esda qolarli xotiraga aylanadi.
+        Bu kichkina sayt — senga atalgan katta mehrimdan bir parcha.
+      </p>
+
+      <div class="tiny-heart">♡</div>
+
+    </section>
+
+
+    <!-- XOTIRALAR -->
+    <section class="memories section-pad" id="memories">
+
+      <div class="section-heading reveal">
+
+        <div>
+          <p class="eyebrow">ENG GO‘ZAL LAHZALAR</p>
+          <h2>Bizning <em>xotiralarimiz.</em></h2>
+        </div>
+
+        <p class="side-note">
+          Har bir suratda
+          <br>
+          minglab hislar yashiringan.
+        </p>
+
+      </div>
+
+
+      <div class="gallery">
+
+        <figure class="photo-card photo-large reveal">
+          <img
+            src="images/photo-1.jpg"
+            alt="Birinchi xotiramiz"
+            onerror="this.parentElement.classList.add('empty-photo')"
+          >
+          <figcaption>
+            <span>01</span> Unutilmas bir lahza
+          </figcaption>
+        </figure>
+
+
+        <figure class="photo-card photo-tall reveal">
+          <img
+            src="images/photo-2.jpg"
+            alt="Ikkinchi xotiramiz"
+            onerror="this.parentElement.classList.add('empty-photo')"
+          >
+          <figcaption>
+            <span>02</span> Faqat ikkimiz
+          </figcaption>
+        </figure>
+
+
+        <figure class="photo-card photo-small reveal">
+          <img
+            src="images/photo-3.jpg"
+            alt="Muniraning tabassumi"
+            onerror="this.parentElement.classList.add('empty-photo')"
+          >
+          <figcaption>
+            <span>03</span> Sening tabassuming
+          </figcaption>
+        </figure>
+
+
+        <figure class="photo-card photo-small reveal">
+          <img
+            src="images/photo-4.jpg"
+            alt="Go‘zal kunimiz"
+            onerror="this.parentElement.classList.add('empty-photo')"
+          >
+          <figcaption>
+            <span>04</span> Unutilmas kun
+          </figcaption>
+        </figure>
+
+
+        <!-- BIRINCHI VIDEO -->
+        <figure class="photo-card photo-wide video-card reveal">
+
+          <video
+            class="memory-video"
+            controls
+            playsinline
+            preload="metadata"
+            poster="images/photo-1.jpg"
+          >
+            <source src="videos/photo1.mp4" type="video/mp4">
+            Brauzeringiz ushbu video formatini qo‘llab-quvvatlamaydi.
+          </video>
+
+          <figcaption>
+            <span>05</span> Bizning alohida lahzamiz ♡
+          </figcaption>
+
+        </figure>
+
+
+        <!-- IKKINCHI VIDEO -->
+        <figure class="photo-card photo-wide video-card reveal">
+
+          <video
+            class="memory-video"
+            controls
+            playsinline
+            preload="metadata"
+            poster="images/photo-2.jpg"
+          >
+            <source src="videos/photo.mp4" type="video/mp4">
+            Brauzeringiz ushbu video formatini qo‘llab-quvvatlamaydi.
+          </video>
+
+          <figcaption>
+            <span>06</span> Yana bir go‘zal xotira ♡
+          </figcaption>
+
+        </figure>
+
+      </div>
+
+    </section>
+
+
+    <!-- IBRATLI SO‘Z -->
+    <section class="quote-section reveal">
+
+      <div class="quote-mark">“</div>
+
+      <p>
+        Sen bilan hatto sukut ham
+        <br>
+        go‘zal bir qo‘shiqdek tuyuladi.
+      </p>
+
+      <span>— FAQAT SEN UCHUN</span>
+
+    </section>
+
+
+    <!-- BIZNING HIKOYAMIZ -->
+    <section class="story section-pad" id="story">
+
+      <div class="section-heading reveal">
+
+        <div>
+          <p class="eyebrow">BIZNING SAHIFALARIMIZ</p>
+          <h2>Kichik <em>hikoyamiz.</em></h2>
+        </div>
+
+      </div>
+
+
+      <div class="timeline">
+
+        <article class="timeline-item reveal">
+
+          <span class="timeline-number">01</span>
+
+          <div>
+            <p class="eyebrow">HAMMASI BOSHLANGAN KUN</p>
+
+            <h3>Hammasi bir joydan boshlangan...</h3>
+
+            <p>
+              Bu yerga birinchi tanishgan kunimiz yoki ilk suhbatimiz haqida yoz.
+            </p>
+          </div>
+
+        </article>
+
+
+        <article class="timeline-item reveal">
+
+          <span class="timeline-number">02</span>
+
+          <div>
+            <p class="eyebrow">UNUTILMAS LAHZA</p>
+
+            <h3>Hech qachon unutmaydigan kunim.</h3>
+
+            <p>
+              Bu yerga eng yoqimli xotiramizni yozib qo‘y.
+            </p>
+          </div>
+
+        </article>
+
+
+        <article class="timeline-item reveal">
+
+          <span class="timeline-number">03</span>
+
+          <div>
+            <p class="eyebrow">HIKOYA DAVOM ETADI</p>
+
+            <h3>Hikoyamiz hali tugamadi.</h3>
+
+            <p>
+              Eng chiroyli sahifalarimiz hali oldinda.
+            </p>
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- MAKTUB -->
+    <section class="letter-section section-pad" id="letter">
+
+      <div class="letter-card reveal">
+
+        <div class="letter-top">
+          <span>SENGA ATALGAN MAKTUB</span>
+          <span>♡</span>
+        </div>
+
+        <p class="eyebrow">AZIZIM MUNIRA,</p>
+
+        <h2>
+          Ba'zi tuyg‘ularni
+          <br>
+          so‘z bilan <em>ifodalab bo‘lmaydi.</em>
+        </h2>
+
+        <p class="letter-copy">
+          Munira, hayotimga kirib kelganing uchun rahmat.
+          Sening tabassuming, ovozing va borliging men uchun juda qadrli.
+          Har bir kuning quvonchga, qalbing esa mehrga to‘lsin.
+          Men uchun sen doim alohida inson bo‘lib qolasan.
+        </p>
+
+        <p class="signature">
+          Doimo seniki <span>♡</span>
+        </p>
+
+        <div class="letter-decoration">M.</div>
+
+      </div>
+
+    </section>
+
+
+    <!-- SYURPRIZ -->
+    <section class="surprise section-pad reveal" id="surprise">
+
+      <p class="eyebrow">YANA BIR KICHIK SYURPRIZ</p>
+
+      <h2>
+        Senga atab
+        <br>
+        kichik bir <em>syurpriz</em> tayyorladim.
+      </h2>
+
+      <p>
+        Bu tugma faqat sen uchun, Munira.
+      </p>
+
+      <button class="surprise-button" id="surpriseButton">
+        Syurprizni ochish <span>✦</span>
+      </button>
+
+      <div class="surprise-message" id="surpriseMessage" aria-live="polite">
+
+        <span class="big-heart">♥</span>
+
+        <h3>Sen men uchun eng qadrli insonsan.</h3>
+
+        <p>
+          Har doim kulib yur, Munira.
+          Seni juda qadrlayman. ♡
+        </p>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- SAYT OXIRI -->
+  <footer>
+
+    <a class="brand" href="#home">m<span>♡</span></a>
+
+    <p>
+      Butun qalbim bilan, faqat Munira uchun.
+    </p>
+
+    <span>© ABADIY VA DOIMO</span>
+
+  </footer>
+
+
+  <!-- ORQA FON MUSIQASI -->
+  <audio id="backgroundMusic" src="music/music.mp3" loop></audio>
+
+
+  <script src="script.js"></script>
+
+
+  <!-- VIDEOLARNI TEKSHIRISH -->
+  <script>
+    document.querySelectorAll('.memory-video').forEach((video) => {
+
+      video.addEventListener('error', () => {
+        console.error(
+          'Video topilmadi yoki ochilmadi:',
+          video.currentSrc
+        );
+      });
+
+    });
+  </script>
+
+</body>
+</html>
